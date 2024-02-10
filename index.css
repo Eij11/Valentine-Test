@@ -1,0 +1,319 @@
+*{
+    /* font-family: 'Heebo', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+/* ===================================== */
+/* TITLE */
+/* ===================================== */
+.title-container{
+    /* display: inline-block; */
+}
+.title-container h2{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 50px;
+    text-align: center;
+
+    transform: translate(0px,130px);
+
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 2s steps(25),
+        cursoe .4s step-end infinite alternate;
+    }
+
+    @keyframes cursor {
+        50%{
+            border-color: transparent;
+        }  
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+    }
+
+#display-text, #display-text1, #display-text2, #display-text3, #display-text4{
+    position: absolute;
+    font-size: 15px;
+}
+
+#display-text{
+    transform: translate(500px,140px);
+}
+
+#display-text1{
+    transform: translate(900px,200px);
+}
+
+#display-text2{
+    transform: translate(700px,330px);
+}
+
+#display-text3{
+    transform: translate(500px,140px);
+}
+
+#display-text4{
+    transform: translate(900px,200px);
+}
+/* ===================================== */
+/* IMAGE */
+/* ===================================== */
+.set-image-container .gif-cat{
+    width: 200px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.gif-center{
+    width: 230px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.gif-rnd1{
+    width: 200px;
+    position: absolute;
+    transform: translate(100px, -50px);
+
+}
+
+.gif-rnd2{
+    width: 200px;
+    position: absolute;
+    transform: translate(1150px, 150px);
+}
+
+.gif-rnd3{
+    width: 150px;
+    position: absolute;
+    transform: translate(300px, 300px);
+}
+.hidden img{
+    display: none;
+}
+
+/* No btn */
+#gif-rnd4, #gif-rnd5, #gif-rnd6, #gif-rnd7, #gif-rnd8 {
+    width: 200px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: none;
+}
+
+/* ===================================== */
+/* BUTTON */
+/* ===================================== */
+
+.button-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.yes-btn, .no-btn{
+    background-color: Transparent;
+    border: solid 1px #f0161a;
+    cursor:pointer;   
+    border-radius: 2px;
+
+
+    margin: 10px;
+    font-size: 25px;
+    padding: 15px, 10px;
+
+    transform: translate(0px,400px);  
+}
+
+.yes-btn:hover, .no-btn:hover{
+    background-color: #f0161a;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================== */
+/* MEDIA 767PX
+/* ===================================== */
+
+
+
+
+@media (max-width: 767px){
+    *{
+        /* font-family: 'Heebo', sans-serif; */
+        font-family: 'Roboto', sans-serif;
+    }
+/* ===================================== */
+/* TITLE */
+/* ===================================== */
+    .title-container{
+        /* display: inline-block; */
+    }
+    .title-container h2{
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 25px;
+        text-align: center;
+
+        transform: translate(0px,180px);
+
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: 
+            typing 2s steps(25),
+            cursoe .4s step-end infinite alternate;
+        }
+    
+        @keyframes cursor {
+            50%{
+                border-color: transparent;
+            }  
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+        }
+
+        #display-text, #display-text1, #display-text2, #display-text3, #display-text4{
+            position: absolute;
+            font-size: 15px;
+        }
+        
+        #display-text{
+            transform: translate(100px,240px);
+        }
+        
+        #display-text1{
+            transform: translate(200px,540px);
+        }
+        
+        #display-text2{
+            transform: translate(100px,440px);
+        }
+        
+        #display-text3{
+            transform: translate(240px,240px);
+        }
+        
+        #display-text4{
+            transform: translate(120px,500px);
+        }
+/* ===================================== */
+/* IMAGE */
+/* ===================================== */
+    .set-image-container .gif-cat{
+        width: 150px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+
+    .gif-center{
+        width: 150px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+
+    .gif-rnd1{
+        width: 150px;
+        position: absolute;
+        transform: translate(120px, 15px);
+  
+    }
+
+    .gif-rnd2{
+        width: 170px;
+        position: absolute;
+        transform: translate(240px, 150px);
+    }
+
+    .gif-rnd3{
+        width: 130px;
+        position: absolute;
+        transform: translate(30px, 470px);
+    }
+    .hidden img{
+        display: none;
+    }
+
+    #gif-rnd4, #gif-rnd5, #gif-rnd6, #gif-rnd7, #gif-rnd8 {
+        width: 150px;
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        display: none;
+    }
+
+/* ===================================== */
+/* BUTTON */
+/* ===================================== */
+
+    .button-container{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .yes-btn, .no-btn{
+        background-color: Transparent;
+        border: solid 1px #f0161a;
+        cursor:pointer;   
+        border-radius: 2px;
+ 
+
+        margin: 10px;
+        font-size: 25px;
+        padding: 15px, 10px;
+
+        transform: translate(0px,670px);  
+    }
+
+    .yes-btn:hover, .no-btn:hover{
+        background-color: #f0161a;
+        color: white;
+    }
+
+    /* .no-btn{
+        position: absolute;
+    } */
+    
+}
+
