@@ -60,6 +60,12 @@
 #display-text4{
     transform: translate(900px,200px);
 }
+
+.watermark{
+    position: absolute;
+    font-size: 10px;
+    transform: translate(1400px,530px);
+}   
 /* ===================================== */
 /* IMAGE */
 /* ===================================== */
@@ -208,23 +214,29 @@
         }
         
         #display-text{
-            transform: translate(100px,240px);
+            transform: translate(70px,340px);
         }
         
         #display-text1{
-            transform: translate(200px,540px);
+            transform: translate(220px,170px);
         }
         
         #display-text2{
-            transform: translate(100px,440px);
+            transform: translate(120px,340px);
         }
         
         #display-text3{
-            transform: translate(240px,240px);
+            transform: translate(240px,260px);
         }
         
         #display-text4{
-            transform: translate(120px,500px);
+            transform: translate(90px,400px);
+        }
+
+        .watermark{
+            position: absolute;
+            font-size: 10px;
+            transform: translate(280px,590px);
         }
 /* ===================================== */
 /* IMAGE */
@@ -240,7 +252,7 @@
     }
 
     .gif-center{
-        width: 150px;
+        width: 200px;
 
         position: absolute;
         top: 50%;
@@ -252,20 +264,20 @@
     .gif-rnd1{
         width: 150px;
         position: absolute;
-        transform: translate(120px, 15px);
+        transform: translate(130px, 15px);
   
     }
 
     .gif-rnd2{
-        width: 170px;
+        width: 150px;
         position: absolute;
-        transform: translate(240px, 150px);
+        transform: translate(240px, 300px);
     }
 
     .gif-rnd3{
         width: 130px;
         position: absolute;
-        transform: translate(30px, 470px);
+        transform: translate(30px, 400px);
     }
     .hidden img{
         display: none;
@@ -303,7 +315,7 @@
         font-size: 25px;
         padding: 15px, 10px;
 
-        transform: translate(0px,670px);  
+        transform: translate(0px,470px);  
     }
 
     .yes-btn:hover, .no-btn:hover{
